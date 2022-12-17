@@ -20,7 +20,7 @@ spec:
             icon: ":robot_face:"
           channel: random
           thread:
-            messageArggregateKey: abc
+            messageArggregationKey: abc
             broadcastMessageToChannel: true
           message: "hello world"
 #           blocks: |
