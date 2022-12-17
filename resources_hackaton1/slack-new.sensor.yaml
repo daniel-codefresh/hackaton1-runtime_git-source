@@ -16,6 +16,9 @@ spec:
             username: "Very Cool Robot"
             icon: ":robot_face:"
           channel: random
+          thread:
+            messageArggregateKey: abc
+            broadcastMessageToChannel: true
           message: "hello world"
 #           blocks: |
 #             [{
