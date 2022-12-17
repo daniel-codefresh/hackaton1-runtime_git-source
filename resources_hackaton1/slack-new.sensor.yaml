@@ -13,10 +13,10 @@ spec:
         name: slack-trigger
         slack:
           sender:
-            username: Very Cool Robot
-            icon: :robot_face:
+            username: "Very Cool Robot"
+            icon: ":robot_face:"
           channel: random
-          message: hello world
+          message: "hello world"
 #           blocks: |
 #             [{
 #             "type": "actions",
