@@ -22,7 +22,7 @@ spec:
           thread:
             messageArggregationKey: abc
             broadcastMessageToChannel: true
-          message: "hello world"
+          message: "hello world!"
 #           blocks: |
 #             [{
 #             "type": "actions",
