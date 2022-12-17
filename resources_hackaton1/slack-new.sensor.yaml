@@ -18,7 +18,7 @@ spec:
           sender:
             username: "Very Cool Robot"
             icon: ":robot_face:"
-          channel: random
+          channel: my-private2
           thread:
             messageAggregationKey: "abc"
             broadcastMessageToChannel: true
