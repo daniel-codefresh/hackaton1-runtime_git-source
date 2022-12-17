@@ -3,6 +3,7 @@ kind: Sensor
 metadata:
   name: slack
 spec:
+  eventBusName: codefresh-eventbus
   dependencies:
     - eventName: push-commit
       eventSourceName: push-commit
