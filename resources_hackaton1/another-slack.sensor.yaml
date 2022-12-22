@@ -3,6 +3,7 @@ kind: Sensor
 metadata:
   name: webhook
 spec:
+  eventBusName: codefresh-eventbus
   dependencies:
     - name: test-dep
       eventSourceName: webhook
