@@ -5,6 +5,9 @@ metadata:
 spec:
   eventBusName: codefresh-eventbus
   dependencies:
+    - name: push-commit
+      eventSourceName: push-commit
+      eventName: push-commit
     - name: test-dep
       eventSourceName: webhook
       eventName: example
@@ -20,6 +23,7 @@ spec:
           dest:
             slack.message
       template:
+        conditions: "push-commit || test-dep"
         name: slack-trigger
         slack:
           slackToken:
